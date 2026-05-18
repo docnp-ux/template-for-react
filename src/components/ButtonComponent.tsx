@@ -7,8 +7,10 @@ const ButtonComponent = (
     {label, onClick}: ButtonProps) => {
     return (
         <>
-            <button onClick={onClick}>
-                {label} + x
+            <button
+                className="w-full h-full block"
+                onClick={onClick}>
+                {label}
             </button>
         </>
     )
