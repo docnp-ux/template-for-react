@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <>
-            <footer className="bg-gray-900 min-h-[10vh]">
+            <footer className="bg-gray-900 min-h-[20vh]">
                 <div className="container mx-auto py-8 flex justify-between text-center">
                     <div className="text-center text-amber-400 w-1/2">
                         <h1 className="text-left text-xl">How to play?</h1>
