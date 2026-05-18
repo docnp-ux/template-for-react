@@ -1,9 +1,9 @@
 import ButtonComponent from "./ButtonComponent.tsx";
-import {useCounter} from "../hooks/useCounter.ts";
+import {usePieceSelector} from "../hooks/usePieceSelector.ts";
 
 const ButtonHook = () => {
 
-    const { label, triggerNextPiece } = useCounter();
+    const { label, triggerNextPiece } = usePieceSelector();
 
     return (
         <>
@@ -14,4 +14,4 @@ const ButtonHook = () => {
         </>
     )
 }
-export  default ButtonHook
+export default ButtonHook;
