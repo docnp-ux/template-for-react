@@ -3,17 +3,15 @@
 const Header = () => {
     return (
         <>
-            <header className="bg-blue-300 w-full fixed">
-                <div className="container mx-auto flex justify-between px-4 accent-blue-300">
+            <header className="bg-gray-900 text-amber-400 w-full fixed top-0">
+                <div className="container mx-auto flex justify-between px-4 py-4 accent-blue-300">
                     <h1 className="text-center">Welcome, try my game!</h1>
                     <a href="/public" className="flex gap-4">Restart?</a>
                 </div>
-                <div className="container mx-auto justify-center accent-blue-300">
-                    <br/>
-                    <p className="text-center">
+                <div className="container mx-auto justify-center">
+                    <p className="text-center pb-2">
                         Click on a square to toggle between
                         "X", "O" and a blank space.
-                        <br/>
                         <br/>
                         (Play fair!)
                     </p>

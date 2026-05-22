@@ -3,10 +3,10 @@
 const Footer = () => {
     return (
         <>
-            <footer className="bg-gray-900 min-h-[20vh]">
+            <footer className="bg-gray-900 min-h-[20vh] fixed bottom-0 w-full">
                 <div className="container mx-auto py-8 flex justify-between text-center">
                     <div className="text-center text-amber-400 w-1/2">
-                        <h1 className="text-left text-xl">How to play?</h1>
+                        <h1 className="text-left text-xl ">How to play?</h1>
                         <br/>
                         <p className="text-left">
                             Tic-Tac-Toe is a classic, simple strategy game for two players.
