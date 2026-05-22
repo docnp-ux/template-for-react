@@ -11,7 +11,7 @@ const Footer = () => {
                         <p className="text-left">
                             Tic-Tac-Toe is a classic, simple strategy game for two players.
                             The goal is to be the first to line up three of your symbols
-                            (either \(X\) or \(O\)) in a horizontal, vertical, or diagonal
+                            (either "X"  or  "O" ) in a horizontal, vertical, or diagonal
                             row on a 3x3 grid.
                         </p>
                     </div>
