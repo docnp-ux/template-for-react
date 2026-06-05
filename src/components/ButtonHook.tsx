@@ -1,17 +1,18 @@
 import ButtonComponent from "./ButtonComponent.tsx";
-import {usePieceSelector} from "../hooks/usePieceSelector.ts";
 
-const ButtonHook = () => {
+type ButtonHookProps = {
+    label: string;
+    onClick: () => void;
+}
 
-    const { label, triggerNextPiece } = usePieceSelector();
-
+const ButtonHook = ({ label, onClick }: ButtonHookProps) => {
     return (
         <>
             <ButtonComponent
                 label={label}
-                onClick={triggerNextPiece}
+                onClick={onClick}
             />
         </>
-    )
-}
+    );
+};
 export default ButtonHook;
